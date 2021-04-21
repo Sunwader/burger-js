@@ -1,10 +1,10 @@
 # Бургер-меню на чистом JS
 
-Wildscreen:
+Wildscreen:  
 ![](readme-files/pc.png)
 
-Mobile menu closed:
+Mobile menu closed:  
 ![](readme-files/mobile-submen-close.png)
 
-Mobile menu opened:
+Mobile menu opened:  
 ![](readme-files/mobile-submen-open.png)
