@@ -229,6 +229,9 @@ body._lock {
     .menu__body._active {
         left: 0;
     }
+    body._touch .menu__sub-list{
+        display: block;
+    }
 
     .menu__body::before {
         content:"";

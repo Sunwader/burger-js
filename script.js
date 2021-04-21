@@ -37,4 +37,28 @@ if (iconMenu) {
     });
 }
 
+// Мобайл & Десктоп определитель
+ const isMobile = {
+    Android: function () {
+        return navigator.userAgent.match(/Android/i);
+    },
+    iOS: function () {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Windows: function () {
+        return navigator.userAgent.match(/IEMObile/i);
+    },
+    any: function () {
+        return(
+            isMobile.Android() ||
+            isMobile.iOS() ||
+            isMobile.Windows());
+    }
+ };
+
+if (isMobile.any()) {
+    document.body.classList.add('_touch');
+} else {
+    document.body.classList.add('_pc');
+}
 
